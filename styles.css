@@ -20,12 +20,12 @@ button{
     border: 1px solid gray; 
 }
 
-.operator{
+.operator, #equal{
     background-color: orange;
     border: 1px solid orange; 
 }
 
-.clear, .sign, .mod{
+.clear, .sign, .percentage{
     color: black;
     background-color: lightgray;
     border: 1px solid lightgray;
@@ -79,9 +79,18 @@ button{
     border: 1px solid lightgray;
 }
 
+.clear:hover, .sign:hover, .percentage:hover{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
 .operatorButton{
     display: flex;
     width: 100px;
     height: auto;
     flex-wrap: wrap;
+}
+
+.operator:hover, #equal:hover{
+    background-color: brown;
 }
